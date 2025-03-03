@@ -1,0 +1,32 @@
+matches:
+  - trigger: ":translate"
+    replace: "{{result}}"
+    label: "Translate into Japanese"
+    vars:
+    - name: form1
+      type: form
+      params:
+        layout: "Please enter the text you want to translate into Japanese.: [[text]]"
+        fields:
+          text:
+            multiline: true
+    - name: result
+      type: shell
+      params:
+       cmd: "python3 $HOME/chatgpt/translater_jp.py {{form1.text}}"
+
+  - trigger: ":translate"
+    replace: "{{result}}"
+    label: "Translate into Spanish"
+    vars:
+    - name: form1
+      type: form
+      params:
+        layout: "Please enter the text you want to translate into Japanese.: [[text]]"
+        fields:
+          text:
+            multiline: true
+    - name: result
+      type: shell
+      params:
+       cmd: "python3 $HOME/chatgpt/translater_sp.py {{form1.text}}"
