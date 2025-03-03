@@ -22,7 +22,7 @@ matches:
     - name: form1
       type: form
       params:
-        layout: "Please enter the text you want to translate into Japanese.: [[text]]"
+        layout: "Please enter the text you want to translate into Spanish.: [[text]]"
         fields:
           text:
             multiline: true
