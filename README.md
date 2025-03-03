@@ -13,6 +13,8 @@
 4) The translated text from OpenAI will be displayed.
 ![image](https://github.com/user-attachments/assets/71fef1b2-1304-49e0-a6a6-1a29d00e2bbb)
 
-
 ## When Spanish is selected.
 
+![image](https://github.com/user-attachments/assets/364280b2-192d-4d5e-9b1f-55054b6fef11)
+
+![image](https://github.com/user-attachments/assets/c6283dff-3ac7-45a3-ba0d-602fb6dd9014)
