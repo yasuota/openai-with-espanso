@@ -18,3 +18,12 @@
 ![image](https://github.com/user-attachments/assets/364280b2-192d-4d5e-9b1f-55054b6fef11)
 
 ![image](https://github.com/user-attachments/assets/c6283dff-3ac7-45a3-ba0d-602fb6dd9014)
+
+
+## FYI 
+
+If you encounter an error because your .zshrc/.bashrc cannot provide OPENAI_API_KEY, you may need to use a plist file.
+https://developer.apple.com/forums/thread/74371
+
+I have read this document but I didn't find anything about this issue. 
+https://espanso.org/docs/matches/variables/#alternatives-to-variable-injection-for-shell-and-scripts
